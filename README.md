@@ -48,13 +48,13 @@ Example: Input: "Hello?" → BoW: [0, 0, 0, 1, 0] → FFNN Output: [0.01, 0.02, 
 
 ##  Project Structure
 
-├── intents.json        # Dataset of patterns and responses 
-├── chatbot.py          # Inference code to chat with the bot 
-├── train.py            # Model training script 
-├── model.py            # Feedforward Neural Network class 
-├── nltk_utils.py       # NLP preprocessing (tokenize, stem, BoW) 
-├── data.pth            # Trained model weights (generated after training) 
-├── README.md           # Project documentation
+├── intents.json       
+├── chatbot.py         
+├── train.py          
+├── model.py           
+├── nltk_utils.py       
+├── data.pth            
+├── README.md          
 
 ---
 
@@ -71,28 +71,28 @@ Download NLTK tokenizer models:
 
 import nltk
 nltk.download('punkt')
-
+```
 
 ---
 
  Training the Model
 
-Run the following to train the chatbot:
+-Run the following to train the chatbot:
 
-python train.py
+-python train.py
 
-This trains the model and saves it as data.pth.
+-This trains the model and saves it as data.pth.
 
 
 ---
 
  Chatting with the Bot
 
-After training, start chatting with the bot:
+-After training, start chatting with the bot:
 
-python chatbot.py
+-python chat.py
 
-You'll be prompted to type a message, and the bot will respond accordingly.
+-You'll be prompted to type a message, and the bot will respond accordingly.
 
 
 ---
