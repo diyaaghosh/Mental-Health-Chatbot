@@ -75,30 +75,30 @@ nltk.download('punkt')
 
 ---
 
- Training the Model
+ ### Training the Model
 
--Run the following to train the chatbot:
+- Run the following to train the chatbot:
 
--python train.py
+- python train.py
 
--This trains the model and saves it as data.pth.
-
-
----
-
- Chatting with the Bot
-
--After training, start chatting with the bot:
-
--python chat.py
-
--You'll be prompted to type a message, and the bot will respond accordingly.
+- This trains the model and saves it as data.pth.
 
 
 ---
 
- Dataset Format (intents.json)
+### Chatting with the Bot
 
+- After training, start chatting with the bot:
+
+- python chat.py
+
+- You'll be prompted to type a message, and the bot will respond accordingly.
+
+
+---
+
+### Dataset Format (intents.json)
+```bash
 {
   "intents": [
     {
@@ -122,34 +122,34 @@ nltk.download('punkt')
   ]
 }
 
-
+```
 ---
 
- Future Improvements
+### Future Improvements
 
-Add Named Entity Recognition (NER) or Sentiment Analysis for better contextual understanding.
+- Add Named Entity Recognition (NER) or Sentiment Analysis for better contextual understanding.
 
-Deploy the chatbot with a web interface using Streamlit.
+- Deploy the chatbot with a web interface using Streamlit.
 
-Enable logging of conversations (with consent) for analysis.
-
-
-
----
-
- Known Issues
-
-The chatbot may not handle out-of-scope questions effectively.
-
-Responses are limited to those defined in intents.json.
+- Enable logging of conversations (with consent) for analysis.
 
 
 
 ---
 
- License
+### Known Issues
 
-This project is licensed under the MIT License.
+- The chatbot may not handle out-of-scope questions effectively.
+
+- Responses are limited to those defined in intents.json.
+
+
+
+---
+
+### License
+
+- This project is licensed under the MIT License.
 
 
 ---
