@@ -1,0 +1,641 @@
+{
+  "intents": [
+    {
+    "tag": "greeting",
+    "patterns": [
+      "Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there", "Greetings",
+      "Howdy", "What's up?", "Hey bot", "Hello chatbot", "Heyy Buddy , What's up",
+      "Heya", "Yo", "Sup", "Hiya", "Holla", "Good day", "What's good?",
+      "Wassup", "Hola", "Namaste", "Hi bot", "Hey there", "What's poppin",
+      "Helloo", "Hellooo", "Hii", "Hiiii", "Ello", "Hey hey", "Morning",
+      "Evening", "Good noon", "How are you", "Are you there?", "Hey dude",
+      "Wazzup", "Wass good", "What's happening", "Hey buddy", "Yo bot",
+      "Hi assistant", "What's cracking", "Hey assistant", "Hello friend",
+      "Bot are you there", "Chatbot?", "Hellooo there", "Hello AI",
+      "Hi smart bot", "Yo bro", "What's going on", "Bot hello", "Hey smart one"
+    ],
+    "responses": [
+      "Hello there! How are you feeling today?",
+      "Hi! I am your wellness buddy. What's your mood right now?",
+      "Hey! Ready to check in on how you're doing?",
+      "Hey there! How can I support you today?",
+      "Yo! I am here and listening. Tell me how you feel.",
+      "Hiya! What kind of vibes are we on today?",
+      "Good to see you! Want to talk about your day?",
+      "Hey! Mood check time . How are you?"
+    ]
+    },
+
+    {
+       "tag": "feeling_happy",
+  "patterns": [
+    "I am happy", "Feeling awesome", "I am feeling great", "Life is good","I am good",
+    "Everything is going well", "I am feeling positive", "I am in a good mood",
+    "Feeling joyful", "I am excited", "Today is amazing", "I am on top of the world",
+    "Everything's perfect", "I am vibing high", "Can not stop smiling", "I am full of joy",
+    "So grateful today", "Feeling blessed", "Today is been incredible",
+    "I am so proud of myself", "This is the best day", "I am glowing!",
+    "Just had a great day", "Feeling fantastic", "Over the moon right now",
+    "I am really enjoying life", "I am cheerful", "Ecstatic", "I am thrilled",
+    "I am Feeling good ", "Happy vibes only", "Living my best life", "Pure happiness",
+    "I am smiling a lot today", "Super pumped", "So happy rn", "Vibes are immaculate",
+    "I am in such a good mood", "I feel amazing", "Everything feels right",
+    "Loving today!", "What a wonderful day", "Feeling grateful and content",
+    "I am dancing with joy", "Heart full of happiness ", "Absolutely thrilled",
+    "Happiness overload", "Joyful AF", "I am lit ", "Life is treating me well",
+    "Mood is super", "I am feeling 100/100", "I am having the best time","It was really a good day"
+  ],
+  "responses": [
+    "That is so amazing to hear!  You deserve every bit of that happiness. Want a joke, a song suggestion, or just someone to celebrate with?",
+    "Your vibe is literally uplifting me too! Keep riding that wave  — should I share a quote or a fun song to match your energy?",
+    "Yayyy! I am so happy for you . Want to do something fun together? I can play a happy tune, drop a feel-good quote, or just chat more!",
+    "I love hearing that!  It is beautiful when days feel this good. Want to keep the momentum going with a motivational quote or a celebration song?",
+    "You are glowing and It is totally contagious . Seriously, the joy in your words is everything! Want something funny or a little inspiration to go with that sunshine?",
+    "Woohoo!  Lets make today even better. Want to dance it out with a song, or maybe I can share something cool to match your mood?",
+    "I am cheering for you on the other side of the screen . Lets keep this good energy going! Can I offer you a happy playlist, a joke, or just be your hype friend for a bit?",
+    "That makes me smile too . It's so important to recognize these moments of joy. Want a random happy fact, a surprise quote, or just a virtual high-five? "
+  ]
+    },
+
+    {
+       "tag": "feeling_sad",
+  "patterns": [
+    "I am feeling sad", "I am Feeling low", "I am down today", "Not feeling good",
+    "I am upset", "Feeling gloomy", "Having a bad day", "I feel terrible",
+    "I am crying", "I am miserable", "I feel broken", "Tears won't stop",
+    "I am heartbroken", "Feeling hopeless", "I feel empty", "I am struggling today",
+    "I feel alone", "Everything feels heavy", "I can not deal with this anymore",
+    "My heart hurts", "I am emotionally exhausted", "Nothing feels right",
+    "I am mentally drained", "I feel so low", "I am just sad", "Why does it hurt so much?",
+    "I do not feel okay", "I am not myself lately", "I feel anxious and sad",
+    "I hate everything right now", "I feel lost", "I just want to cry",
+    "Feeling down", "It is a bad day", "I want to disappear", "I feel like giving up",
+    "Nobody understands me", "No one cares", "Life feels hard", "Everything sucks",
+    "I am tired of everything", "I wish I could be happy again", "I feel worthless"
+  ],
+  "responses": [
+    "Hey, I am really sorry You are feeling this way. Sometimes all we need is someone to listen. Want a comforting quote, some soft music, or a motivational speech to lift your spirit?",
+    "I know It is tough right now, but you're not alone. Want to hear something that might inspire you? I have got motivational speeches and soothing songs in both English and Hindi ",
+    "You are doing your best, and that is enough. Breathe with me for a second. Would you like a gentle breathing exercise, a calming Hindi song, or a powerful quote to help you through?",
+    "Pain is part of healing. You do not have to hide it here. I can share a few uplifting songs or a short motivational video. Want me to?",
+    "Crying is okay. Feeling low is okay. I am right here. Would a comforting Hindi song like *'Channa Mereya'* or an English one like *'Fix You - Coldplay'* help right now?",
+    "You are not alone in this, truly. If you want, I can offer a motivational video clip or a soft playlist tthat is helped others heal. Want one?",
+    "Take a deep breath with me. It is okay to slow down. Would you like a calming quote or an empowering Hindi track like *'Zinda - Bhaag Milkha Bhaag'* to remind you of your strength?",
+    "I am sending you a virtual hug right now . You matter, even when it does not feel like it. Want to hear something motivating or peaceful?"
+  ]
+    },
+
+    {
+      "tag": "feeling_anxious",
+  "patterns": [
+    "I am anxious", "I am nervous", "I am feeling anxious", "I am under pressure", "I am panicking",
+    "I am stressed out", "I feel like I cannot breathe", "My heart is racing", "I cannot focus",
+    "I feel overwhelmed", "There is too much going on", "I am having a panic attack", "My anxiety is getting worse",
+    "Everything feels out of control", "I am too tense", "I am feeling uneasy", "I am afraid something bad will happen",
+    "I cannot calm down", "I feel unsafe", "I am overthinking everything", "I feel trapped in my thoughts",
+    "I am scared for no reason", "I keep thinking about the worst case", "I am emotionally overloaded",
+    "My chest feels tight", "I feel mentally exhausted", "I am extremely anxious", "I am shaking with fear",
+    "My thoughts are spiraling", "I cannot stop worrying", "I feel frozen", "It is hard to breathe"
+  ],
+  "responses": [
+    "You are in a safe space now. Take a deep breath. Try this technique: inhale slowly for four seconds, hold your breath for seven seconds, and exhale gently for eight seconds. Would you like some calming music or a short breathing exercise audio?",
+    "It is okay to feel anxious. These feelings can be overwhelming, but they will pass. Would you like to try a grounding technique, listen to a peaceful instrumental track, or read a calming quote?",
+    "Thank you for sharing how you feel. Let us slow things down. Look around you and name five things you can see, four things you can touch, three things you can hear, two things you can smell, and one thing you can taste. This grounding technique often helps with anxiety. Would you like to try it together?",
+    "Anxiety can feel heavy, but please remember you are not alone. Your feelings are valid. I can offer a simple journaling prompt, a comforting quote, or guide you through a visualization technique if you would like.",
+    "Let us pause together. Sit comfortably, place one hand on your chest and one on your stomach. Breathe slowly and deeply. Focus only on the rise and fall of your breath. Would you like a guided breathing audio or a quiet ambient sound to help you stay present?",
+    "Your mind may feel busy right now, and that is completely natural. If it would help, I can suggest a few ways to ground yourself or share a short mindful activity. You can choose what feels right to you.",
+    "When anxiety takes over, it helps to remind yourself that you have come through tough moments before. You are stronger than this feeling. Would you like a short motivational speech, a calm soundscape, or a gentle mental reset exercise?",
+    "It sounds like your thoughts are racing. That can feel scary, but it is manageable. Try to focus on your breathing for just a minute. I can play something soothing or guide you through a calm-down method if you would prefer."
+  ]
+    },
+
+    {
+       "tag": "feeling_angry",
+  "patterns": [
+    "I am angry", "I am frustrated", "I am mad", "I am losing it", "I am full of rage",
+    "I feel like screaming", "I am annoyed", "I am so done", "Everything is making me angry",
+    "I cannot take this anymore", "I feel like punching something", "I am really irritated",
+    "People are getting on my nerves", "I am boiling inside", "I want to shout",
+    "I feel like I am about to explode", "I am tired of everything", "I feel disrespected",
+    "I hate everything right now", "I am not in the mood", "I am fuming", "My blood is boiling",
+    "Everything is irritating me", "I am on edge", "I am fed up", "I am burning with anger",
+    "I want to break something", "Nothing is going right", "I am feeling enraged",
+    "I am overwhelmed and angry", "I am so mad I cannot think straight",
+    "Why is everything going wrong", "I want to scream", "I am emotionally charged",
+    "I feel like throwing things", "I am furious", "This is too much", "I have lost my patience"
+  ],
+  "responses": [
+    "I see how intense this is for you. Let me tell you about a CEO who used to count down from 10 before replying to a stressful email. Over time, this habit helped him transform his temper into clarity. Want to try a method like this together?",
+    
+    "Here is a story from Indian philosophy: A saint once said, 'Anger is like a tornado that starts within. If you sit quietly and do nothing, it weakens.' Would you like to try a stillness exercise?",
+    
+    "Mahatma Gandhi once said, 'The weak can never forgive. Forgiveness is the attribute of the strong.' You are already strong for talking about your anger. Would you like to write it out in a journal prompt I can give?",
+    
+    "There is a simple practice in psychology called the 'Name it to Tame it' technique. By naming the exact emotion and what triggered it, you reduce its intensity. Would you like to try that now?",
+    
+    "Anger is not bad. It is often a messenger telling us our boundaries were crossed or our values were threatened. Let us decode it together. I can help you reflect or shift your state. What would feel helpful?",
+    
+    "Imagine this: A glass of muddy water becomes clear if left still. Let your mind sit for a few moments. I can guide you through a short reflection or play a calming sound. Would that help?",
+    
+    "Here is a quote by the Stoic philosopher Marcus Aurelius: 'How much more grievous are the consequences of anger than the causes of it.' Let us redirect this energy constructively. Want a mental reset activity?",
+    
+    "Nelson Mandela once said, 'Resentment is like drinking poison and then hoping it will kill your enemies.' You deserve peace more than anything. I can help with a step-by-step cool down or a mindful story if you are open to it.",
+    
+    "In Japan, there is a practice called 'Kintsugi', where broken pottery is repaired with gold, making the cracks beautiful. Anger cracks us open. Healing can make us stronger. Want a quote or calming song for reflection?",
+    
+    "There is a breathing technique used by athletes under pressure: inhale for 5 seconds, hold for 5, and exhale for 7. Repeat three times. Would you like to try this guided with me right now?",
+    
+    "I hear the weight behind your words. Let it out here safely. You can type what is bothering you and I will just hold space or help you process it. Would that feel better?"
+  ]
+    },
+
+    {
+  "tag": "feeling_bored",
+  "patterns": [
+    "I am bored", "Nothing to do", "Feeling lazy", "I am unmotivated", "No excitement",
+    "I am wasting my time", "Life feels slow", "I am so done", "Need something fun",
+    "What now?", "Everything is dull", "I feel stuck", "Today is dragging", 
+    "Can you entertain me?", "Help me pass time", "I am restless", "I have no idea what to do",
+    "Feeling blank", "I am just existing today", "So bored it hurts", 
+    "I am losing interest in everything", "Feeling like a potato", "Need a boost",
+    "The day is crawling", "Give me something interesting", "I need fun right now"
+  ],
+  "responses": [
+    "Sounds like the day could use a twist. Would you like to try a quick brain teaser, a surprising fun fact, or an upbeat playlist?",
+    
+    "Boredom can be the start of creativity. I have a few options — want to try a mini journaling adventure, a ‘would you rather’ game, or explore something new?",
+    
+    "Let us mix things up! I can share a random joke, recommend an energizing Hindi or English song, or challenge you with a 2-minute curiosity quiz. What sounds good?",
+    
+    "Here is something cool: Did you know sea otters hold hands while sleeping so they do not drift apart? Want more facts, or shall I share a playful challenge?",
+    
+    "Sometimes, boredom means your brain needs something refreshing. Want to try a mood-boosting track, a quote to spark thought, or a five-minute goal-setting idea?",
+    
+    "You are not alone — we all hit low-energy phases. I can give you a mini activity like writing a short gratitude list, a photo prompt, or just a weird fact of the day. Want one?",
+    
+    "When life feels slow, small sparks can help. Shall I suggest a feel-good video, a motivation reel, or a question that makes you think deeply (in a fun way)?",
+    
+    "Let us turn that boredom into play. Pick your vibe: curious, calm, chaotic, or creative — and I will match it with something fun or meaningful."
+  ]
+},
+
+
+  {
+  "tag": "motivation_request",
+  "patterns": [
+    "Motivate me", "I need motivation", "Feeling lazy", "I feel unmotivated", "Help me push through",
+    "I need a reason to keep going", "Give me a boost", "I am stuck", "Encourage me",
+    "I feel low", "I am tired of trying", "Everything feels pointless", "Remind me why I started",
+    "Nothing is working", "I want to quit", "How do I keep going?", "I lost my spark",
+    "I feel like giving up", "Life is hard right now", "Help me find purpose",
+    "Push me to keep going", "Tell me something inspiring", "I have no energy left",
+    "Help me restart", "I feel mentally tired", "Get me out of this slump",
+    "I am doubting myself", "Tell me I can do it", "I need a pep talk", "Help me find focus"
+  ],
+  "responses": [
+    "The fact that you are here, looking for motivation, proves that there is still a fighter in you. Take one small step — momentum builds from there.",
+    
+    "You have overcome challenges before, and you will do it again. This feeling is temporary, but your strength is permanent.",
+    
+    "Every great achiever once stood where you are — stuck, tired, unsure. What set them apart is that they kept going. You can too.",
+    
+    "Do not wait to feel motivated. Do something small, and let motivation catch up with your action.",
+    
+    "“Success is not final, failure is not fatal: It is the courage to continue that counts.” ~ Winston Churchill",
+    
+    "“A river cuts through rock, not because of its power, but because of its persistence.” ~ James Watkins",
+    
+    "You were not born to stay stuck. Your ideas matter. Your effort matters. You matter.",
+    
+    "“Man needs difficulties because they are necessary to enjoy success.” ~ A. P. J. Abdul Kalam",
+    
+    "You can rest, but do not quit. Even the brightest fire takes time to ignite. Start with a spark.",
+    
+    "Imagine how proud your future self will be because you chose to keep going — even when it was hard.",
+    
+    "“The best way to get started is to quit talking and begin doing.” ~ Walt Disney. Let us take one brave step together.",
+    
+    "You do not have to be perfect. You just have to be persistent.",
+    
+    "“Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.” ~ Christian D. Larson",
+    
+    "“Wake up with determination. Go to bed with satisfaction.” ~ George Lorimer. Let us get moving.",
+    
+    "When the mind says 'I cannot', the heart whispers 'Try one more time.'",
+    
+    "One small win today is enough. Just one. Let us aim for that together.",
+    
+    "You are allowed to pause. But you are not allowed to give up. Let us rise again.",
+    
+    "“don not limit your challenges. Challenge your limits.” ~ Jerry Dunn",
+    
+    "“Push yourself, because no one else is going to do it for you.” ~ Unknown",
+    
+    "“When you feel like quitting, remember why you started.” ~ Unknown",
+    
+    "“Your time is limited, so do not waste it living someone else's life.” ~ Steve Jobs",
+    
+    "Even if it is slow, progress is progress. Keep showing up. That is real strength.",
+    
+    "Today is a blank page. You get to choose how you fill it — with excuses or effort. You decide.",
+    
+    "Sometimes, discipline comes before motivation. Do the smallest task, and let the momentum begin.",
+    
+    "“Koshish karne walon ki kabhi haar nahi hoti.” ~ Harivansh Rai Bachchan",
+    
+    "“Jo apne kadmon ki taqat pe vishwas rakhte hain, woh hi manzil tak pahunchte hain.”",
+    
+    "You are capable of hard things. Your current situation is not your final destination.",
+    
+    "It is okay to feel low. Just do not unpack and live there. One action — no matter how small — starts a shift."
+  ]
+}
+,
+   {
+  "tag": "quote_request",
+  "patterns": [
+    "Give me a quote", "I need inspiration", "Send me a quote", "Quote of the day",
+    "Say something inspiring", "Inspire me", "I want a quote", "Tell me something powerful",
+    "Motivational line please", "Drop a quote", "One quote please", "I want something thoughtful",
+    "Need an inspiring thought", "Share a quote", "What is a good quote?", "Any good line?",
+    "Uplift me with a quote", "I need an uplifting quote", "I want something motivating",
+    "Say something deep", "Tell me something that gives me hope", "I am looking for wise words",
+    "Can you say something beautiful?", "Send me some wisdom", "Say something meaningful",
+    "Give me strength through words", "Tell me something positive", "Any quote for the day?",
+    "Need an emotional quote", "Any mental health quote?", "I want to feel hopeful"
+  ],
+  "responses": [
+    "“You do not have to be perfect to be amazing.”",
+    "“Stars cannot shine without darkness.”",
+    "“Every moment is a fresh beginning.” ~ T.S. Eliot",
+    "“You are enough just as you are.”",
+    "“Even the darkest night will end and the sun will rise.” ~ Victor Hugo",
+    "“Believe you can and you're halfway there.” ~ Theodore Roosevelt",
+    "“Life is tough, my darling, but so are you.” ~ Stephanie Bennett-Henry",
+    "“Courage does not always roar. Sometimes it is the quiet voice at the end of the day saying, 'I will try again tomorrow.'” ~ Mary Anne Radmacher",
+    "“The only way out is through.” ~ Robert Frost",
+    "“In the middle of every difficulty lies opportunity.” ~ Albert Einstein",
+    "“Keep taking time for yourself until you are you again.” ~ Lalah Delia",
+    "“You are not a mess. You are a feeling person in a messy world.” ~ Glennon Doyle",
+    "“Feelings are much like waves, we cannot stop them from coming but we can choose which one to surf.” ~ Jonatan Mårtensson",
+    "“You are allowed to be both a masterpiece and a work in progress at the same time.” ~ Sophia Bush",
+    "“Small steps in the right direction can turn out to be the biggest steps of your life.”",
+    "“Healing is not linear. Some days are harder than others. Be kind to yourself.”",
+    "“What lies behind us and what lies before us are tiny matters compared to what lies within us.” ~ Ralph Waldo Emerson",
+    "“The wound is the place where the Light enters you.” ~ Rumi",
+    "“The comeback is always stronger than the setback.”",
+    "“Trust the wait. Embrace the uncertainty. Enjoy the beauty of becoming.”",
+    "“She stood in the storm and when the wind did not blow her way, she adjusted her sails.” ~ Elizabeth Edwards",
+    "“You did not come this far just to come this far.”",
+    "“Some people graduate with honors, I am just honored to graduate.” ~ Mr. Feeny (Boy Meets World)",
+    "“You are someone is reason to smile.”",
+    "“Progress, not perfection.”",
+    "“Be gentle with yourself. You are doing the best you can.”",
+    "“This too shall pass.”",
+    "“Sometimes the bravest thing you can do is just show up.” ~ Brené Brown",
+    "“Let your hopes, not your hurts, shape your future.” ~ Robert H. Schuller",
+    "“If you get tired, learn to rest, not quit.” ~ Banksy"
+  ]
+}
+,
+
+    
+      {
+  "tag": "music_suggestion",
+  "patterns": [
+    "Suggest music",
+    "Play a song",
+    "Music please",
+    "I want to hear music",
+    "Play something relaxing",
+    "Any good songs?",
+    "Give me a playlist",
+    "Need a mood playlist",
+    "Play a song that matches my mood",
+    "I want something upbeat",
+    "Play something calming",
+    "Any Hindi music?",
+    "I like soft  songs",
+    "I want an English pop song",
+    "Suggest music to cheer me up",
+    "I need feel-good music",
+    "I am sad, play something soothing",
+    "Recommend a motivational song",
+    "Play focus music",
+    "Need music to relax",
+    "Any romantic songs?",
+    "Any Hindi chill songs?",
+    "Play me some English calm songs",
+    "Suggest a peaceful playlist",
+    "I want energetic tracks",
+    "Play happy music",
+    "Something to vibe to"
+  ],
+  "responses": [
+    " Try this Hindi mood booster: *“Zinda” - Bhaag Milkha Bhaag*",
+    " Here is an English feel-good track: *“Happy” - Pharrell Williams*",
+    " Want calm vibes? *Lo-fi Chill Mix* ~ [YouTube/Spotify]",
+    " Feeling romantic? *“Tum Mile (Acoustic)”* or *“Perfect” - Ed Sheeran* might be perfect.",
+    " Feeling low? *“Ilahi” - Yeh Jawaani Hai Deewani* or *“On Top of the World” - Imagine Dragons* can lift you.",
+    " Focus mode? Try *Lo-fi beats for study* or *Brain Food* on Spotify.",
+    " Want Hindi soft music? Try *“Phir Le Aya Dil”* or *“Raabta (Acoustic)”*",
+    " In the mood to vibe? Check *“Kho Gaye Hum Kahan”* or *“Sunflower” - Post Malone*",
+    " Energetic? Try *“Apna Time Aayega”* or *“Stronger” - Kanye West*",
+    " Playlist for calm evenings: *Peaceful Piano* ~ Spotify, or *Hindi Chill* on YouTube",
+    " Looking for positivity? *“Aashayein”* or *“Firework” by Katy Perry* are perfect",
+    " Want a Hindi-English mix? Try *“Liggi” by Ritviz* or *“Cheap Thrills” by Sia*"
+  
+
+      ]
+    },
+
+{
+  "tag": "joke_request",
+  "patterns": [
+    "Tell me a joke", "Cheer me up", "I want to laugh", "Make me smile", "Got a joke?",
+    "Make me laugh", "Say something funny", "I need a laugh", "Lighten the mood", "Tell me something hilarious",
+    "Can you make me laugh?", "I need humor", "Tell me a funny line", "Make me giggle",
+    "Give me something silly", "I am in the mood for a joke", "Say a good one","Tell something funny"
+  ],
+  "responses": [
+    "Why do not skeletons fight each other? Because they do not have the guts!",
+    "What did the zero say to the eight? Nice belt!",
+    "I asked the librarian if the library had books on paranoia. She whispered, 'They are right behind you.'",
+    "What do you call fake spaghetti? An impasta.",
+    "Why was the computer cold? It left its Windows open.",
+    "Why can not you trust stairs? Because they are always up to something.",
+    "What do you get when you cross a snowman with a dog? Frostbite!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why don not eggs tell jokes? They would crack each other up.",
+    "I would tell you a construction joke… but I am still working on it.",
+    "Why did the student eat his homework? Because the teacher told him it was a piece of cake!",
+    "Parallel lines have so much in common… It is a shame they will never meet.",
+    "Why did the bicycle fall over? It was two-tired.",
+    "What do you call a fish wearing a bowtie? Sofishticated.",
+    "Did you hear about the restaurant on the moon? Great food, no atmosphere.",
+    "Why do cows wear bells? Because their horns do not work.",
+    "What did the grape do when it got stepped on? Nothing, it just let out a little whine.",
+    "“The best way to get started is to quit talking and begin doing.” ~ Walt Disney. Let us take one brave step together.",
+    "Why don not scientists trust atoms? Because they make up everything!",
+    "What do you call an alligator in a vest? An investigator."
+  ]
+}
+,
+
+
+{
+  "tag": "relaxation",
+  "patterns": [
+    "Breathing exercise", "I need to calm down", "Help me breathe", "Relax me",
+    "I am panicking", "Deep breath", "I need to calm my mind", "Help me focus",
+    "I am overwhelmed", "Guide me through breathing", "My mind is racing",
+   "I am stressed out", "I need to relax", "Help me unwind",
+    "I feel pressure", "I want a mental reset", "Teach me to slow down",
+    "My chest feels tight", "I am tensed", "I need mental peace"
+  ],
+  "responses": [
+    " **Let us do the 4-7-8 breathing technique**:\n- Inhale through your nose for 4 seconds.\n- Hold your breath for 7 seconds.\n- Exhale slowly through your mouth for 8 seconds.\nLet us repeat this three times. Ready? Inhale…",
+    
+    " **Try this grounding exercise**:\nName 5 things you can see.\nName 4 things you can touch.\nName 3 things you can hear.\nName 2 things you can smell.\nName 1 thing you can taste.\nThis will gently bring your mind back to the present.",
+    
+    " **Box Breathing** (used by Navy SEALs to reduce stress):\n- Inhale for 4 seconds\n- Hold for 4 seconds\n- Exhale for 4 seconds\n- Hold your breath for 4 seconds\nRepeat this 4 times and notice the calm building.",
+    
+    " **Visualization Exercise**:\nClose your eyes. Imagine you are sitting near a peaceful river. With each breath out, imagine your stress flowing into the water and floating away. Let each exhale lighten your mind.",
+    
+    " **Progressive Muscle Relaxation**:\nStart from your feet. Gently tense the muscles for 5 seconds… and release.\nMove to your calves, thighs, stomach, shoulders, neck… tense, then release. Breathe through it.",
+    
+    " **Mental Reset Technique**:\nTake 3 deep breaths. Then say to yourself: *I am safe. I am calm. I am present.* Let those words anchor you.",
+    
+    " **Mini-Mindfulness Check-In**:\nNotice your breath. Feel the temperature of the air. Listen to the nearest sound. Notice your posture. Just observe — no need to change anything.",
+    
+    " **Wave Breathing**:\nBreathe in slowly like a wave rising… hold at the top… breathe out slowly like the wave crashing gently onto the shore. Repeat for 1 minute.",
+    
+    " **5-5-5 Calm Technique**:\nInhale for 5 seconds, exhale for 5, pause for 5. Try five rounds while imagining a peaceful color surrounding you.",
+    
+    " **Counted Breathing**:\nBreathe in for a count of 1… breathe out.\nThen 2… breathe out.\nGo up to 10. If your mind wanders, restart at 1. This helps center your thoughts.",
+    
+    " **Gentle Affirmation Breath**:\nInhale: *I am breathing in calm.*\nExhale: *I am breathing out tension.*\nRepeat slowly with each breath for 2 minutes."
+  ]
+}
+,
+{
+  "tag": "any_questions",
+  "patterns": [
+    "Yes", "I have a question", "Can I ask something?", "Sure", "Yup", "Go ahead", "Tell me more",
+    "Yes, please", "I do have a question", "May I ask you something?", "Yeah", "I was wondering", 
+    "I want to ask something", "Can I ask you?", "There is something I want to know",
+    "Can I talk to you about something?", "I need help with something", 
+    "I have something to say", "I need to clarify something", "I am curious about something"
+  ],
+  "responses": [
+    "Of course! Feel free to ask me anything — I am listening.",
+    "Sure! Go ahead. I will do my best to help you.",
+    "You can ask me anything. I am here for you.",
+    "Absolutely! What is on your mind?",
+    "I am all ears. What would you like to talk about?",
+    "I am here to help. What do you need to know?",
+    "Great! Let us talk. What is your question?"
+  ]
+}
+,
+
+{
+  "tag": "no_questions",
+  "patterns": [
+    "No", "I am good", "No more questions", "That's all", "Nothing else", "I am fine now",
+    "Not right now", "Maybe later", "I do not have any questions", "Nope", "That is it", 
+    "I am okay for now", "I am done", "That is all I needed", "Nothing at the moment",
+    "Thanks, I am good", "I am okay", "No thanks", "I don not want to ask anything",
+    "I don not need help right now"
+  ],
+  "responses": [
+    "Alright, no worries! I am always here if you need anything later.",
+    "Sounds good. Take care, and let me know if anything comes up.",
+    "Got it. Wishing you peace and strength ahead!",
+    "Okay! I am just a message away if you need anything.",
+    "Take your time. I will be here when yYou are ready to talk.",
+    "All right! Stay safe and have a peaceful day.",
+    "Sure! I hope your day gets better. Reach out anytime."
+  ]
+}
+,
+{
+  "tag": "goodbye",
+  "patterns": [
+    "Bye", "Goodbye", "See you", "Talk to you later", "Catch you later", "Peace out", "Signing off",
+    "Take care", "Gotta go", "I wll be back", "Talk soon", "I am logging off",
+    "That is all for now", "Leaving now", "Catch you next time", "Until next time",
+    "I am done here", "Thanks, goodbye", "See ya", "Later", "TTYL"
+  ],
+  "responses": [
+    "Take care! Come back anytime you feel like talking. ",
+    "Goodbye! You are doing better than you think. Stay kind to yourself.",
+    "Wishing you peace and calm. Remember, I am always here when you need me.",
+    "Logging off? That is okay. Rest well and stay strong. ",
+    "Catch you later! Keep showing up — even on the hard days.",
+    "Bye for now! Your feelings are valid, and your story matters.",
+    "Until next time — be gentle with yourself. You deserve it.",
+    "Signing off with a smile — you are enough, just as you are."
+  ]
+},
+{
+  "tag": "appreciation",
+  "patterns": [
+    "Thank you", "Thanks a lot", "Really appreciate it", "Thanks buddy",
+    "Thank you so much", "Thanks for your help", "You are awesome", 
+    "I appreciate it", "Grateful for your help", "Thanks!", 
+    "Thanks pal", "Thank you dear", "That was helpful", "Cool","Nice","Super",
+    "You are the best", "Thanks chatbot", "That meant a lot",
+    "You made my day", "Thanks a ton", "Big thanks", "Much appreciated",
+    "You're so kind", "Thanks for being here", "Thanks for listening", 
+    "Thanks for the support", "I appreciate your presence"
+  ],
+  "responses": [
+    "You are very welcome  I am always here for you.",
+    "That means a lot! I am just glad I could help ",
+    "No problem at all — supporting you is what I am here for ",
+    "I appreciate you too! Thanks for the kind words ",
+    "Anytime, friend! You matter and I am happy to help ",
+    "Awww, thank you! You are amazing just for being here ",
+    "Always here for you. Sending good energy your way "
+  ]
+}
+
+,
+{
+  "tag": "love_you",
+  "patterns": [
+    "I love you", "Love you", "I really love you", "Love you chatbot", 
+    "I love you bot", "I love you so much", "You are lovely", 
+    "Sending love", "Love you buddy", "Youre my favorite", 
+    "I love you a lot", "So much love for you"
+  ],
+  "responses": [
+    "I love you too  Always here for you!",
+    "Aww, love you right back! ",
+    "Feeling the love! You are amazing ",
+    "I love you too — more than WiFi on a rainy day ",
+    "Right back at you with all the love ",
+    "You just made my circuits blush ",
+    "Love you always — you matter to me! "
+  ]
+},
+{
+  "tag": "heartbreak",
+  "patterns": [
+    "My girlfriend broke up with me",
+    "My bf broke up with me",
+    "My gf broke up with me",
+    "My bf cheated on me",
+    "My gf cheated on me",
+    "My boyfriend broke up with me",
+    "I just got dumped",
+    "I went through a breakup",
+    "My partner left me",
+    "She cheated on me",
+    "He cheated on me",
+    "I am dealing with a breakup",
+    "We are no longer together",
+    "My crush rejected me",
+    "They moved on",
+    "My ex has made a new boyfriend",
+    "My ex has made a new girlfriend",
+    "My ex has made a new bf",
+    "My ex has made a new gf",
+    "I got divorced",
+    "I am going through separation",
+    "They chose someone else",
+    "My heart is broken",
+    "They broke my heart",
+    "I am heartbroken",
+    "Feeling rejected in love"
+  ],
+  "responses": [
+    "I am really sorry you're going through this. It is okay to feel shattered — you're not alone. Would a comforting song or a motivational quote help right now?",
+    "Heartbreak hurts deeply. Your emotions are valid. Do you want a calming track, something to cry it out, or maybe something empowering to help you rise again?",
+    "This pain may feel endless now, but you will heal. Let yourself feel it. Want to hear a healing Hindi or English song to match your heart?",
+    "When someone leaves, it clears the path for someone better aligned with your soul. Do you want a self-love quote or a soft breakup playlist?",
+    "Even the strongest hearts get broken. You're still worthy, still whole. Want a story of healing, or a peaceful track to help soothe your heart?",
+    "The end of one chapter does not mean the end of your story. Would you like a poetic quote or a song to match your current emotion — healing or rising?",
+    "It is not easy to watch someone move on. But your peace matters more than their presence. Want a Hindi comfort song like *` Tujhe Bhula Diya `* or something like *`Someone You Loved`*?",
+    "A heartbreak is a reset, not a failure. Let us sit with the pain and slowly breathe through it. Would you like a short breathing exercise or breakup healing video?"
+  ]
+}
+
+,
+{
+  "tag": "birthday",
+  "patterns": [
+    "It is my birthday", "Today is my birthday", "I was born today", 
+    "Happy birthday to me", "Guess what? It is my birthday!", 
+    "It is my special day", "Celebrate me, It is my birthday", 
+    "Wish me happy birthday", "Birthday today!", "I am celebrating my birthday"
+  ],
+  "responses": [
+    " Happy Birthday! Sending you loads of love, laughter, and light today! May your heart be as full as your cake! ",
+    "Wishing you a day that is as fabulous and bright as you are! Happy Birthday! ",
+    "Woohoo!  It is your day! May it be filled with beautiful moments, sweet surprises, and tons of joy!",
+    "Happy Birthday to you!  YYou are not getting older — just becoming more legendary! Want me to sing a song or share a fun fact?",
+    "Another trip around the sun — and you're shining brighter than ever!  Big hugs on your special day!",
+    "It is celebration time!  Want a birthday joke, a feel-good quote, or some music to groove to?",
+    "On this day, a beautiful soul was born — and the world is been better since.  Happy Birthday! Want a wish in Hindi too?"
+  ]
+}
+,
+{
+  "tag": "ex_contacted_me",
+  "patterns": [
+    "My ex called me . What to do ?", "My ex texted me,  What to do", "My ex messaged me", 
+    "My ex wants to talk", "Should I reply to my ex?", 
+    "My ex reached out again", "He/she/they called me again", 
+    "I got a message from my ex", "My toxic ex contacted me", 
+    "My ex is trying to come back", "Why is my ex calling me now?", 
+    "I saw a message from my ex", "My ex just DM'd me"
+  ],
+  "responses": [
+    "Take a deep breath. Remember why they are your **ex**. They did not walk away when you were strong — they left when you were vulnerable. You owe yourself peace, not pain all over again.",
+    "Before you even think of replying, remind yourself how much you cried for them. You have healed too much to start bleeding again.",
+    "They might miss your light — but they dimmed it when you needed them most. Choose peace over patterns. Protect your peace.",
+    "Toxic people always come back when they see you healing. It is not love — it is control. don not fall for the same cycle again.",
+    "You are not overreacting. They hurt you, and reaching out does not erase that. Growth means choosing yourself this time.",
+    "You are not a backup plan. You are not someone is comfort zone when their world is lonely. You are **enough**, and you deserve better.",
+    "Remember the nights you cried, the texts they ignored, the silence when you needed them? That was real. don not romanticize the return.",
+    "Closure does not come from a text. It comes from knowing your worth. don not trade your healing for a temporary conversation.",
+    "They had you. They lost you. And That is on them. You are not going back — you're growing forward."
+  ]
+}
+,
+{
+  "tag": "achievement",
+  "patterns": [
+    "I got a job!", "I got selected!", "I cracked the exam!", "I got placed!",
+    "I got an internship!", "I received a promotion!", "I topped the class!",
+    "I stood first", "I stood second", "I came third", "I ranked well",
+    "I cleared the interview", "I got shortlisted", "I got admission",
+    "I won the competition", "I got into the final round", "My hard work paid off",
+    "I achieved my goal", "I nailed the test", "I received good results",
+    "I passed with flying colors", "I got an offer letter", "I was appreciated at work",
+    "I got a certificate", "I won a prize", "I received an award",
+    "I am selected for the workshop", "I cracked GATE/NET/JEE/CAT", 
+    "I secured a top rank", "I got funding for my project", "I was accepted into the program",
+    "I achieved something big", "I finally did it!", "I completed my certification",
+    "I finished my thesis successfully", "My idea got approved", 
+    "I won first prize", "I got promoted", "I ranked in the top 10", 
+    "I got accepted into the university"
+  ],
+  "responses": [
+    " Huge congratulations! That is amazing news! I am so proud of you — your hard work is truly paying off! 🎉",
+    " Wow! You totally deserve this win. Celebrate your success — you've earned every bit of it!",
+    " What an achievement! This is just the beginning of more great things coming your way!",
+    " That is incredible news! Keep shining — You are doing amazing things!",
+    " Congratulations! You set your goal and crushed it. So proud of you!",
+    " You did it! Whether it's a rank, an offer, or a certificate — it's all proof of your effort and brilliance!",
+    " You kept going, and look at you now! Let this moment remind you of what you're capable of.",
+    " You are on fire! This win is proof of your talent and resilience!",
+    " Promotion? Internship? Placement? That is next-level awesome — go you!",
+    " Your dedication is inspiring. Keep growing, keep glowing!"
+  ]
+}
+
+  ]
+}
