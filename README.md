@@ -45,9 +45,9 @@ Input Sentence: "Is anyone there?"
 Example: Input: "Hello?" → BoW: [0, 0, 0, 1, 0] → FFNN Output: [0.01, 0.02, 0.96, 0.01] → Predicted Intent: "greeting"
 
 ---
-```
-##  Project Structure
 
+##  Project Structure
+```
 ├── intents.json       
 ├── chatbot.py         
 ├── train.py          
