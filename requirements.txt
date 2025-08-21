@@ -1,12 +1,7 @@
-pip==24.0
-setuptools==68.2.2
-wheel==0.41.2
-
-streamlit==1.48.0      # Latest as of August 2025
-numpy==2.3.2           # Latest as of July 2025
-torch==2.2.2           # Known stable version with wheels available
+streamlit==1.48.0
+numpy==2.3.2
+torch==2.2.2
 torchvision==0.17.2
 torchaudio==2.2.2
 pandas==2.2.2
 nltk==3.8.1
-
