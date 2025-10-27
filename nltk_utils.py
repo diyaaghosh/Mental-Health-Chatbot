@@ -3,10 +3,12 @@ import numpy as np
 import pandas as pd
 import nltk
 
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+# Ensure both punkt and punkt_tab are available
+for resource in ("punkt", "punkt_tab"):
+    try:
+        nltk.data.find(f"tokenizers/{resource}")
+    except LookupError:
+        nltk.download(resource)
 
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
@@ -36,5 +38,6 @@ def bag_of_words(tokenized_sentences,words):
             bag[index]=1
             
     return bag        
+
 
 
