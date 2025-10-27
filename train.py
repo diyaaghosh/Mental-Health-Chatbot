@@ -12,14 +12,29 @@ nltk.download('punkt_tab')
 nltk.download('punkt')
 from torch.utils.data import Dataset,DataLoader
 from nltk_utils import tokenize,bag_of_words,stemmer
+import os, json
 
-with open('intents.json', encoding='utf-8') as f:
-    intents = json.load(f)
+import json
+
+with open("intents.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+print("JSON loaded successfully!")
+
     
     
 all_words=[]
 tags=[]
 xy=[]
+import json
+
+# Open and load the intents.json file
+with open("intents.json", "r", encoding="utf-8") as f:
+    intents = json.load(f)
+
+# Now you can use intents['intents']
+
+
 for intent in intents['intents']:
     tag=intent["tag"]
     tags.append(tag)
