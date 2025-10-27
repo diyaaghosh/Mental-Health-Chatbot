@@ -2,9 +2,15 @@
 import numpy as np
 import pandas as pd
 import nltk
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
-nltk.download('punkt')
+
 
 stemmer=PorterStemmer()
 
@@ -30,4 +36,5 @@ def bag_of_words(tokenized_sentences,words):
             bag[index]=1
             
     return bag        
+
 
