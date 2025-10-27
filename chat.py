@@ -1,3 +1,6 @@
+import nltk
+nltk.download('punkt')
+
 import random
 import json
 import torch
@@ -96,3 +99,4 @@ if user_input:
         "content": response,
         "avatar": "🤖"
     })
+
