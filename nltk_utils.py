@@ -1,27 +1,33 @@
+# Installing Libraries
 import numpy as np
+import pandas as pd
 import nltk
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
+nltk.download('punkt')
 
-# Download required NLTK resources
-nltk.download("punkt", quiet=True)
-nltk.download("stopwords", quiet=True)
+stemmer=PorterStemmer()
 
-stemmer = PorterStemmer()
-
+# Tokenize Sentences (breaking sentence into words)
 def tokenize(sentence):
     return word_tokenize(sentence)
 
-def stemming(word):
-    return stemmer.stem(word.lower())
+# Stemming (converting into root words)
+def stemming(words):
+    return stemmer.stem(words.lower())
 
-def bag_of_words(tokenized_sentence, words):
-    bag = np.zeros(len(words), dtype=np.float32)
-    tokenized_words = [stemming(w) for w in tokenized_sentence]
-    stemmed_words = [stemming(w) for w in words]
-    for idx, w in enumerate(stemmed_words):
+# Bag of words return array of 0 (if corresponding word of words array not present in tokenized sentence) or 1(if present) in their corresponding position
+def bag_of_words(tokenized_sentences,words):
+    bag=np.zeros(len(words),dtype=np.float32)
+    tokenized_words=[]
+    stemmed_words=[]
+    for w in tokenized_sentences:
+        tokenized_words.append(stemming(w))
+    for w in words:
+        stemmed_words.append(stemming(w))
+    for index,w in enumerate(stemmed_words):
         if w in tokenized_words:
-            bag[idx] = 1
-    return bag
-
+            bag[index]=1
+            
+    return bag        
 
